@@ -1,0 +1,93 @@
+.env
+my-vm.txt
+# Byte-compiled files and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled extensions
+*.so
+*.pyd
+
+# Packaging and build output
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Local environment overrides. The example .env is intentionally versioned.
+.env.*
+!.env
+!.env.example
+!.env.template
+
+# Test, coverage, and profiling output
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.hypothesis/
+.tox/
+.nox/
+test-results/
+*.cover
+*.py,cover
+*.prof
+
+# Type-checker and linter caches
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.pyright/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Framework-generated files
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+instance/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.env
